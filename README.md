@@ -4,7 +4,7 @@ Este é um app web simples para calcular variações de rating Elo, como usado e
 
 Desenvolvido em Python com Streamlit, o app permite calcular rapidamente quantos pontos você ganha ou perde em uma partida de xadrez, considerando o rating do adversário e o resultado da partida.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - 📈 Calcula o novo rating após vitória, empate ou derrota.
 - 🎯 Mostra a expectativa de vitória com base na diferença de rating.
