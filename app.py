@@ -11,7 +11,7 @@ igual aos sistemas usados em plataformas como Social Chess, Lichess e Chess.com.
 """)
 
 # Inputs
-st.header("🎯 Dados da Partida")
+st.header("Dados da Partida")
 
 rating_jogador = st.number_input("Seu rating atual", min_value=100, max_value=3500, value=1200)
 rating_oponente = st.number_input("Rating do oponente", min_value=100, max_value=3500, value=1200)
@@ -50,4 +50,4 @@ if st.button("Calcular"):
     st.write(f"🏆 **Seu novo rating é:** {novo_rating}")
 
 st.markdown("---")
-st.markdown("Desenvolvido com ❤️ usando Streamlit.")
+st.markdown("Desenvolvido com Streamlit.")
